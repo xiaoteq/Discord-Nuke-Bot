@@ -4,7 +4,7 @@ A powerful Discord nuke bot.
 
 ## Support
 
-~~Join our Discord server for support and updates: [Discord Link](https://discord.gg)~~
+Join our Discord server for support and updates: [Discord Link](https://discord.gg/jWdvghHGj7)
 
 ## Features
 
