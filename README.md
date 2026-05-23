@@ -1,18 +1,15 @@
 # Discord Nuke Bot
-
-A powerful Discord nuke bot.
-
-## Support
-
-Join our Discord server for support and updates: [Discord Link](https://discord.gg/jWdvghHGj7)
+## Showcase
+![1](./1.png)
 
 ## Features
-
 - Delete/Create roles
-- Delete/Create channels
+- Delete/Create text channels
+- Delete/Create voice channels
+- Delete/Create categories
 - Delete/Change server icon
 - Delete/Change server name
-- Delete/Change server banner (planned)
+- Delete/Change server banner
 - Delete stickers
 - Delete emojis
 - Delete server templates
@@ -20,57 +17,40 @@ Join our Discord server for support and updates: [Discord Link](https://discord.
 - Disable Content Filter
 - Disable System Channel
 - Enable All Notifications
-- Send messages (webhook+bot with tts)
-- Create category (planned)
+- Send messages
 - Ban other bots
+- Change members nicknames
 - Give @everyone admin permission
 
-- Use Proxy (planned)
-
-
 ## Installation
-
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Configuration
+1. **`config.json`** file controls the bot behavior:
+- `mix_voice_channels`: Create voice channels or not.
+- `nickname_type`: "random_string": generate a random alphanumeric string;"random_list": select from the data.json configuration.
 
-1. `config.json` file:
-
-```python
-channel_name = "CHANNEL_NAME"
-role_name = "ROLE_NAME"
-server_name = "SERVER_NAME"
-webhook_name = "WEBHOOK_NAME"
-message = "MESSAGE"
-```
-
-2. `.env` file:
-
-```
-TOKEN = "Your Bot Token"
-```
+2. **`data.json`** file holds the random strings used during execution.
+3. **`.env`** file for token.
 
 ## Usage
-
 1. Run the bot:
 ```bash
 python main.py
 ```
 
-2. Use command in bot DM:
+2. Invite bot to the server
 
-```
-!nuke server_id
-```
+If you didn't turn on `auto_nuke_on_join` and now need to use the command `!nuke server_id`
 
 ## Notes
+- The bot requires **Administrator** permissions in the target server.
+- Ensure the bot's role is placed as high as possible in the role hierarchy.
 
-- Please check the bot has admin permissions in the target server
-- Move the bot's role as high as possible in the role list
-- Use lowercase when setting channel names
+## Support
+Join our Discord server for support and updates: [Discord Link](https://discord.gg/jWdvghHGj7)
 
 ## Disclaimer
-
-This project is for educational purposes only. Use at your own risk. Users are responsible for complying with all applicable laws and terms of service.
+For educational purposes only, users assume all risks and responsibility for legal and ToS compliance.

