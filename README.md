@@ -13,12 +13,16 @@
 - Delete stickers
 - Delete emojis
 - Delete server templates
+- Delete System Channel
 - Disable Verification Level
 - Disable Content Filter
-- Disable System Channel
 - Enable All Notifications
-- Send messages
 - Ban other bots
+- Ban other members
+- Send messages (webhook)
+- Custom webhook avatar
+- Ban other bots
+- Ban other members
 - Change members nicknames
 - Give @everyone admin permission
 
